@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta property="og:image" content="images/spec.png">
+    <meta content="skate.wtf" property="og:title">
+    <meta content="skate's site" property="og:description">
+    <meta content="https://skate.wtf/" property="og:url">
+    <meta content="#FF494E" data-react-helmet="true" name="theme-color">
+    
+    <title>skate.wtf</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" media="screen">
+    <link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="start">
+        <a onclick="start()" class="startbtn">continue?</a>
+    </div>
+    <div id="content">
+        <div class="bg">
+            <audio id="song" loop="">
+                <source src="media/the%20front%20-%20quas.mp3" type="audio/mpeg">
+            </audio>
+            <video id="video" playsinline="" preload="" muted="" loop="">
+                <source src="media/quas.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="main">
+            <h1>skate.wtf</h1>
+            <p><span class="typing">i am balling</span></p>
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+            <script>
+                var typed = new Typed('.typing', {
+                    strings: ['hi world.', '15 yr old developer', '06/12/2018', 'nrf packet spammers>>> ', '1551?', 'blame sjwz', 'i use baritone :)', 'sjwzish'],
+                    typeSpeed: 60,
+                    backSpeed: 40,
+                    loop: true
+                });
+            </script>
+        </div>
+        <div class="footer">
+            <a href="https://github.com/s1wz">github</a>
+            <a href="https://instagram.com/sjwzish">instagram</a>
+            <a href="https://discordapp.com/users/962128120750669864">discord</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
